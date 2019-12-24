@@ -1,0 +1,132 @@
+/* GENERAL STYLING */
+
+* {
+  box-sizing: border-box;
+  color: #dbdfe5;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+
+header {
+  background: #262d4b;
+  height: 10vh;
+  padding-top: 1%;
+  text-align: center;
+}
+
+/* MAIN DISPLAY */
+
+main {
+  background: #090c2d;
+  display: flex;
+  height: 90vh;
+}
+
+/* LEFT SECTION */
+
+.section-left-side {
+  padding: 2% 2% 0;
+  width: 66.6%;
+}
+
+.section-left-side h2 {
+  margin-bottom: 1.5%;
+}
+
+.left-side-activity-input {
+  background: #262d4b;
+  border-radius: 4px;
+  box-shadow: 4px 4px 2px rgba(1, 1, 1, 0.3);
+  height: 77vh;
+  padding: 5% 10% 0;
+}
+
+.left-side-activity-input-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 0 10%;
+}
+
+.left-side-activity-input-buttons button,
+img {
+  background: #262d4b;
+}
+
+.left-side-activity-input-buttons button {
+  font-size: 1em;
+  padding: 2% 0;
+  width: 25%;
+}
+
+.left-side-activity-input-buttons img {
+  height: auto;
+  width: 15%;
+}
+
+.section-activity-description-input {
+  height: 20%;
+}
+
+input {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #dbdfe5;
+  font-size: 1em;
+  height: 25%;
+  padding: 1em;
+}
+
+.section-activity-description-input input {
+  margin: 2% 0 0;
+  width: 101%;
+}
+
+
+.section-activity-time-input {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.section-activity-time-input div {
+  width: 40%;
+}
+
+.section-activity-time-input div input {
+  width: 100%;
+}
+
+#start-activity-button {
+  background: #dbdfe5;
+  border-radius: 2px;
+  color: #262d4b;
+  font-size: .8em;
+  font-weight: bolder;
+  height: 7%;
+  margin: 8% 75% 0;
+  width: 25%;
+}
+
+
+/* RIGHT SECTION */
+
+.section-right-side {
+  border-left: 1px solid #dbdfe5;
+  width: 33.3%;
+}
+
+.section-right-side h2 {
+  margin: 7% 5% 8%;
+}
+
+.section-right-side p {
+  text-align: center;
+  margin-bottom: 2%;
+}

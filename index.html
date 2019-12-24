@@ -3,48 +3,52 @@
   <head>
     <meta charset="utf-8">
     <title>Intention Timer v2.0</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1>Intention Timer v2.0</h1>
     </header>
     <main>
-      <section>
-        <p>New Activity</p>
+      <section class="section-left-side">
+        <h2>New Activity</h2>
         <section>
-          <p>Select a category:</p>
-          <section>
-            <div>
-              <img src="./assets/study.svg" alt="book with lightbulb above it">
-              <p>Study</p>
-            </div>
-            <div>
-              <img src="./assets/meditate.svg" alt="lotus flower icon">
-              <p>Meditate</p>
-            </div>
-            <div>
-              <img src="./assets/exercise.svg" alt="sneaker icon">
-              <p>Exercise</p>
-            </div>
+          <section class="left-side-activity-input">
+            <p>Select a category&#58;</p>
+            <section class="left-side-activity-input-buttons">
+              <button type="button" name="study-button">
+                <img src="./assets/study.svg" alt="book with lightbulb above it">
+                <p>Study</p>
+              </button>
+              <button type="button" name="meditate-button">
+                <img src="./assets/meditate.svg" alt="lotus flower icon">
+                <p>Meditate</p>
+              </button>
+              <button type="button" name="exercise-button">
+                <img src="./assets/exercise.svg" alt="sneaker icon">
+                <p>Exercise</p>
+              </button>
+            </section>
+            <section class="section-activity-description-input">
+              <p>What would you like to accomplish during this time?</p>
+              <input type="text" name="activity-description" value="">
+            </section>
+            <section class="section-activity-time-input">
+              <div>
+                <p>Minutes</p>
+                <input type="number" name="minutes" value="">
+              </div>
+              <div>
+                <p>Seconds</p>
+                <input type="number" name="seconds" value="">
+              </div>
+            </section>
+            <button id="start-activity-button" pe="button" name="start-activity">START ACTIVITY</button>
           </section>
-          <section>
-            <p>What would you like to accomplish during this time?</p>
-            <input type="text" name="activity-description" value="">
-          </section>
-          <section>
-            <div>
-              <p>Minutes</p>
-              <input type="number" name="minutes" value="">
-            </div>
-            <div>
-              <p>Seconds</p>
-              <input type="number" name="seconds" value="">
-            </div>
-          </section>
-          <button type="button" name="button">Start Activity</button>
         </section>
       </section>
-      <section>
+      <section class="section-right-side">
         <h2>Past Activities</h2>
         <p>You haven&apos;t looged any activities yet.</p>
         <p>Complete the form to the left to get started&#33;</p>
