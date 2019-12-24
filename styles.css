@@ -87,6 +87,22 @@ input {
   width: 101%;
 }
 
+
+.section-activity-time-input {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+.section-activity-time-input div {
+  width: 40%;
+  /* border: 2px solid red; */
+}
+
+.section-activity-time-input div input {
+  width: 100%;
+}
+
 /* RIGHT SECTION */
 
 .section-right-side {
