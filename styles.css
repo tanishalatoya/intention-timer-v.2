@@ -40,6 +40,33 @@ main {
   background: #262d4b;
   border-radius: 4px;
   box-shadow: 4px 4px 2px rgba(1, 1, 1, 0.3);
+  /* display: flex;
+  flex-direction: column; */
+  height: 77vh;
+  padding: 2% 10%;
+}
+
+.left-side-activity-input-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0 5%;
+}
+
+.left-side-activity-input-buttons button,
+img {
+  background: #262d4b;
+}
+
+.left-side-activity-input-buttons button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  padding: 2% 0;
+  width: 25%;
+}
+
+.left-side-activity-input-buttons img {
+  height: auto;
+  width: 15%;
 }
 
 /* RIGHT SECTION */
