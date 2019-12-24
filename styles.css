@@ -10,6 +10,13 @@
 
 /* HEADER */
 
+header {
+  background: #262d4b;
+  height: 10vh;
+  padding-top: 1%;
+  text-align: center;
+}
+
 /* MAIN DISPLAY */
 
 /* RIGHT SECTION */
