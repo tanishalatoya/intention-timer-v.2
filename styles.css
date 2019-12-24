@@ -19,6 +19,22 @@ header {
 
 /* MAIN DISPLAY */
 
-/* RIGHT SECTION */
+main {
+  background: #090c2d;
+  display: flex;
+  height: 90vh;
+}
 
 /* LEFT SECTION */
+
+.section-left-side {
+  background: #262d4b;
+  width: 66.6%;
+}
+
+/* RIGHT SECTION */
+
+.section-right-side {
+  border-left: 1px solid #dbdfe5;
+  width: 33.3%;
+}
