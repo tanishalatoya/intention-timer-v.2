@@ -49,7 +49,7 @@ main {
 .left-side-activity-input-buttons {
   display: flex;
   justify-content: space-between;
-  margin: 2% 0 5%;
+  margin: 3% 0 10%;
 }
 
 .left-side-activity-input-buttons button,
@@ -67,6 +67,24 @@ img {
 .left-side-activity-input-buttons img {
   height: auto;
   width: 15%;
+}
+
+.section-activity-description-input {
+  height: 20%;
+}
+
+input {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #dbdfe5;
+  padding: 1em;
+  font-size: 1em;
+  height: 25%;
+}
+
+.section-activity-description-input input {
+  margin: 2% 0 0;
+  width: 101%;
 }
 
 /* RIGHT SECTION */
