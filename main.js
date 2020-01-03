@@ -1,8 +1,10 @@
 var startActivityBtn = document.querySelector('#start-activity-button');
 var numbersInput = document.querySelector('.section-activity-time-input');
+var description = document.querySelector('#description');
 
 window.addEventListener('load', disableStartActibityBtn);
 numbersInput.addEventListener('input', checkInputForNumbersOnly);
+
 
 function disableStartActibityBtn() {
   startActivityBtn.disabled = true;
@@ -26,11 +28,12 @@ function checkForLetterE(event) {
   }
 }
 
+function checkForActivityDescription() {
+  var description = document.querySelector('#description');
 
-
-
-//need to be able to target each error message individually
-// put event listener of the div??
-// qeury select the divs and then for each div, loop while checking
-//function wheere keyCode just returns true or false, nothing else {
-  // the use that false value to set the error message
+  if (!description.value || description.value.length < 4) {
+    event.target.nextElementSibling.innerText = 'Please enter a description of your activity.'
+  } else {
+    event.target.nextElementSibling.innerText = '';
+  }
+}
