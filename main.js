@@ -1,14 +1,21 @@
-//make sure the time inputs can only accept numbers
-//adventlistener for an input
-//target input-erro-message to display error if user inputs a letter (even the letter "e")
-
 var startActivityBtn = document.querySelector('#start-activity-button');
+var numbersInput = document.querySelector('.section-activity-time-input');
 
 window.addEventListener('load', disableStartActibityBtn);
+numbersInput.addEventListener('input', checkInputForNumbers);
+
 
 function disableStartActibityBtn() {
   startActivityBtn.disabled = true;
 }
+
+function checkInputForNumbers() {
+  
+}
+
+//make sure the time inputs can only accept numbers
+//adventlistener for an input
+//target input-erro-message to display error if user inputs a letter (even the letter "e")
 
 
 
