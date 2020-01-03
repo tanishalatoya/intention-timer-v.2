@@ -117,6 +117,7 @@ input {
 }
 
 #start-activity-button:disabled {
+  background: #9296a5;
   cursor: not-allowed;
 }
 
